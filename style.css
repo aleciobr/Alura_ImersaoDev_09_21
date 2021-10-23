@@ -1,0 +1,66 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Stick No Bills', sans-serif;
+    background: linear-gradient(to bottom, #ecd02d, #8a7815);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container{
+    background: #edf4ff;
+    color: #1c1c1c;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+}
+
+.topo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.info{
+    margin-left: 32px;
+}
+
+.info h1{
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.info h3{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.projetos{
+    background: linear-gradient(to left,#dfd28c, #ffee8b);
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.projetos ul{
+    list-style-type: none;
+}
+
+.projetos a{
+    text-decoration: none;
+    color: #0e1d2f;
+    font-size: 20px;
+    padding-left: 400px;
+}
